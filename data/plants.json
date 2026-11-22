@@ -21,7 +21,7 @@
     "aware": 9,
     "summary": "Every part of the sago palm may be dangerous, especially its seeds. Even a small exposure can cause serious illness including liver damage.",
     "action": "Keep cats away from the plant, fallen leaves, and seeds. Call a veterinarian promptly if chewing or swallowing may have occurred.",
-    "image": "assets/images/sago-palm.jpg",
+    "image": "images/plants/sago-palm.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 19
   },
@@ -34,7 +34,7 @@
     "aware": 16,
     "summary": "Foxglove contains compounds that can affect the heart. Keep cats away from the plant and cut stems.",
     "action": "Keep cats away from foxglove and cut stems. Contact a veterinarian if your cat may have eaten it.",
-    "image": "assets/images/foxglove.jpg",
+    "image": "images/plants/foxglove.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 20
   },
@@ -47,7 +47,7 @@
     "aware": 15,
     "summary": "Oleander leaves, flowers, branches, and other parts can affect the heart and cause serious illness if eaten.",
     "action": "Prevent access to oleander and clippings. Contact a veterinarian or animal poison service immediately after suspected chewing.",
-    "image": "assets/images/oleander.jpg",
+    "image": "images/plants/oleander.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 21
   },
@@ -73,7 +73,7 @@
     "aware": 12,
     "summary": "This project studied Strelitzia reginae. Its fruit and seeds may cause stomach upset or sleepiness. Other plants also share the common name.",
     "action": "Check the scientific name on the label; keep fruit and seeds away from cats. Contact a veterinarian after possible exposure.",
-    "image": "assets/images/bird-of-paradise.jpg",
+    "image": "images/plants/bird-of-paradise.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 23
   },
@@ -86,7 +86,7 @@
     "aware": 15,
     "summary": "The ASPCA lists aloe vera as toxic to cats. Chewing it may cause vomiting, diarrhea, or tiredness.",
     "action": "Keep aloe plants and products away from cats; show the product label or plant photo to the veterinarian after suspected exposure.",
-    "image": "assets/images/aloe-vera.jpg",
+    "image": "images/plants/aloe-vera.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 24
   },
@@ -99,7 +99,7 @@
     "aware": 11,
     "summary": "Calla lilies are not true lilies. Their crystals may irritate the mouth and cause drooling or difficulty swallowing; their effects differ from true lilies.",
     "action": "Keep calla lilies out of reach and contact a veterinarian after chewing, especially with trouble swallowing or breathing.",
-    "image": "assets/images/calla-lily.jpg",
+    "image": "images/plants/calla-lily.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 25
   },
@@ -112,7 +112,7 @@
     "aware": 16,
     "summary": "Eucalyptus leaves and oils can harm cats. Reported signs may include drooling, vomiting, diarrhea, weakness, or tiredness.",
     "action": "Keep leaves, oils, and eucalyptus products away from cats. Explain any suspected exposure to a veterinarian.",
-    "image": "assets/images/eucalyptus.jpg",
+    "image": "images/plants/eucalyptus.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 26
   },
@@ -125,7 +125,7 @@
     "aware": 8,
     "summary": "Jade plant ingestion may cause vomiting, tiredness, or unsteady movement.",
     "action": "Keep jade plants inaccessible and contact a veterinarian after suspected ingestion.",
-    "image": "assets/images/jade-plant.jpg",
+    "image": "images/plants/jade-plant.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 27
   },
@@ -138,7 +138,7 @@
     "aware": 10,
     "summary": "Pothos contains crystals that may irritate a cat’s mouth. Chewing can lead to drooling, vomiting, or difficulty swallowing.",
     "action": "Prevent chewing and contact a veterinarian following suspected exposure.",
-    "image": "assets/images/pothos.jpg",
+    "image": "images/plants/pothos.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 28
   },
@@ -151,7 +151,7 @@
     "aware": 9,
     "summary": "English ivy ingestion may upset a cat’s stomach. No respondents selected it as present at home, which does not prove it is absent locally.",
     "action": "Prevent ingestion and contact a veterinarian if your cat may have eaten English ivy.",
-    "image": "assets/images/english-ivy.jpg",
+    "image": "images/plants/english-ivy.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 29
   },
@@ -164,7 +164,7 @@
     "aware": 9,
     "summary": "The manuscript’s geranium entry refers to Pelargonium species, not necessarily true Geranium species. Ingestion may cause vomiting, loss of appetite, or tiredness.",
     "action": "Confirm the scientific name and keep susceptible cats away; contact a veterinarian after suspected ingestion.",
-    "image": "assets/images/geranium.jpg",
+    "image": "images/plants/geranium.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 30
   },
@@ -177,7 +177,7 @@
     "aware": 13,
     "summary": "Lavender may cause stomach upset, vomiting, or low appetite if eaten. Concentrated lavender oil is a separate, potentially stronger exposure.",
     "action": "Avoid allowing cats to ingest lavender and keep concentrated oils away; discuss possible exposures with a veterinarian.",
-    "image": "assets/images/lavender.jpg",
+    "image": "images/plants/lavender.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 31
   },
@@ -190,7 +190,7 @@
     "aware": 12,
     "summary": "The project originally scored rosemary incorrectly. The ASPCA lists rosemary as non-toxic to cats; this is included as a documented research correction.",
     "action": "Rosemary is shown here as a non-toxic comparison, not as a dangerous plant. Non-toxic does not mean unlimited ingestion is advisable.",
-    "image": "assets/images/rosemary.jpg",
+    "image": "images/plants/rosemary.jpg",
     "image_note": "Student project photograph from San Diego Botanic Garden",
     "page": 32
   }

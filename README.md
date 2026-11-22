@@ -1,30 +1,46 @@
-# Safe Gardens, Safe Cats · Static website
+# Safe Gardens, Safe Cats — Complete Website
 
-A three-page static website based on the uploaded 2026 student book manuscript and research presentation.
+A six-page, mobile-friendly static website, based on the team's 2026 presentation and draft manuscript. Designed for GitHub Pages; no build tools or backend needed.
 
-## Contents
-- `index.html`: homepage, book status, research, and proposed December 5 event
-- `plants.html`: searchable 15-entry plant guide with expandable summaries
-- `about.html`: methods, survey results, project team, and acknowledgments
-- `css/style.css`: responsive styling
-- `js/site.js`, `js/data.js`, `js/plants.js`: navigation, plant data, interactive search/filter
-- `data/plants.json`: machine-readable editable plant data
-- `assets/images/`: selected original project photographs from the manuscript
+## Website files
+- `index.html` — home page
+- `plants.html` — searchable 15-entry plant guide
+- `research.html` — study methodology, survey and SD-CPRI limitations
+- `book.html` — book information and draft publication status
+- `events.html` — planned December 5, 2026 library presentation and outreach
+- `about.html` — student team, milestones, acknowledgments
+- `css/style.css` — responsive styling
+- `js/site.js` — mobile menu and footer year
+- `js/plants.js` — search/filter and expandable plant cards
+- `js/data.js` — data for browsers opening local HTML files directly
+- `data/plants.json` — editable canonical plant profiles
+- `images/plants/` — student project plant photographs, when available
+- `images/project/` — field and veterinarian interview photographs
 
 ## Preview
-Open `index.html` in any browser. No build step required. Alternatively, from this folder run `python -m http.server 8000` then visit `http://localhost:8000`.
+Open `index.html` in your browser. Works with `file://` because the plant data are also included in `js/data.js`.
 
-## Publish
-Create a GitHub repository, upload this folder's contents to the root of the `main` branch, then open Settings → Pages → Deploy from a branch → `main` and `/ (root)`.
+## Publishing on GitHub Pages
+Keep all files and folders at the root of your existing repository. **Do not delete your `.git` folder.** Copy the extracted contents into your working repository folder, replacing matching files. In Git Bash run:
 
-## Required before public release
-1. Have a veterinarian confirm every plant profile and emergency guidance. This site reproduces an unvalidated student project guide, not a clinical product.
-2. Verify photos and obtain any needed permission for student field photography and photos showing people. Images marked pending were omitted because manuscript image credits/licenses remain unresolved.
-3. Confirm final book author/contributor credits with the team.
-4. Confirm venue permission and event time before advertising the proposed December 5, 2026 workshop.
-5. If you need a contact address, create a project-specific shared inbox; do not publish students' personal email addresses.
-6. Review privacy and consent before posting survey microdata or identifiable images. The website currently displays only aggregate survey counts.
-7. Replace or remove placeholder book display once the final book is approved for distribution.
+```bash
+git status
+git add .
+git commit -m "Add research, book and events pages"
+git push origin main
+```
 
-## Source details
-Source: *Safe Gardens, Safe Cats*, student manuscript (41 pages), and the uploaded community research presentation. Data includes all 15 original entries, including rosemary as a clearly identified non-toxic comparison. Survey counts are from 114 nonrandom respondents; these do not establish San Diego-wide rates. The SD-CPRI concept was not validated or used to compute an official ranking.
+GitHub → repository Settings → Pages → Deploy from branch `main` and `/ (root)`.
+
+## Editing plant information
+Edit `data/plants.json`, then keep `js/data.js` synchronized. It contains the same array with `window.SGSC_PLANTS = ` before it and a semicolon after it. Without updating both, browser cards won't reflect your edits.
+
+## Important publication checks
+1. Have a veterinarian verify the plant safety advice. This website is educational, not a diagnosis or treatment tool.
+2. Obtain permissions for student and interview photographs before publicly distributing. The photos for true lilies and azalea are intentionally omitted pending verified licensing.
+3. Confirm final author/contributor names and photograph credits.
+4. Confirm the planned December 5 library event with the venue before public promotion.
+5. Survey counts (114 respondents) are not representative of all San Diego cat owners. SD-CPRI is exploratory and unvalidated.
+6. Do not upload confidential survey information or personal emails to this public repository.
+
+This package replaces a previous **three-page** version; the new `research.html`, `book.html`, and `events.html` are fully implemented and linked from sitewide navigation.
